@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root{
   font-family: "Alice", serif;
   line-height: 150%;
@@ -9,6 +14,7 @@ body{
   background-size: cover;
 }
 
+
 #page{
   box-sizing: border-box;
   width: 800px;
@@ -16,11 +22,23 @@ body{
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px auto;
-kjk
 }
 
 img {
   border-radius: 16px;
+}
+
+main{
+  padding: 24px;
+}
+
+section + section{
+  margin-top: 24px;
+}
+
+#about p + p{
+  /* esse seletor adjacente "+" indica que somente os <p> seguidos do primeiro receberao as propriedades, ou seja, o primeiro nao recebe, apenas o que vem em sequencia dele */
+  margin-top: 12px;
 }
 
 h1{
@@ -33,5 +51,11 @@ h2{
 }
 
 h1, h2{
-  color: #291B1A;;
+  color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 24px;
 }
