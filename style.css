@@ -10,8 +10,7 @@
 }
 
 body{
-  background-color: #573824;
-  background-image: url(assets/bg-image.jpg);
+  background-image: url(assets/bg.jpg);
   background-size: cover;
 }
 
@@ -63,4 +62,5 @@ ul{
 footer{
   text-align: center;
   color: #F0E8C2;
+  margin-bottom: 20px;
 }
